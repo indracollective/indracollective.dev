@@ -67,7 +67,7 @@ return [
      * You can skip these by adding a `--skip-{name}` flag to the command.
      */
     'after' => [
-        'fix_paths' => "find ./build -type f -name '*.html' -exec sed -i '' 's|".env('APP_URL')."||g' {} +",
+        'fix_paths' => "find ./dist -type f -name '*.html' -exec sed -i '' 's|".env('APP_URL')."||g' {} +",
     ],
 
 ];

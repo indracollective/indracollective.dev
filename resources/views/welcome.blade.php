@@ -45,7 +45,7 @@
                     <a href="https://github.com/indracollective" target="_blank">
                         <x-bi-github class="w-8 h-8 opacity-50 hover:opacity-100" />
                     </a>
-                    <a href="https://x.com/livesourcenz" target="_blank">
+                    <a href="https://x.com/indracollective" target="_blank">
                         <x-bi-twitter-x class="w-8 h-8 opacity-50 hover:opacity-100" />
                     </a>
                     <a href="https://linkedin.com/in/shea-dawson-4b757719/" target="_blank">

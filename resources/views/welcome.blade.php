@@ -11,7 +11,12 @@
     <meta name="apple-mobile-web-app-title" content="Indra" />
     <link rel="manifest" href="/favicon/site.webmanifest" />
     <title>IndraCollective</title>
-    @googlefonts
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     @vite('resources/css/app.css')
 
     @if (request()->headers->get('X-Laravel-Export'))

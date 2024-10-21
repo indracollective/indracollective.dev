@@ -35,20 +35,18 @@
     @endif
 </head>
 
-<body class="font-sans antialiased dark:bg-slate-900 text-slate-900 dark:text-white ">
-    <div
-        class="absolute inset-0 h-full bg-gradient-to-r from-blue-900/10 via-white to-amber-100/20 dark:from-teal-400/40 dark:via-slate-900 dark:to-teal-400/40 dark:opacity-5">
+<body class="font-sans antialiased text-white bg-slate-900">
+    <div class="absolute inset-0 h-full bg-gradient-to-r from-teal-400/40 via-slate-900 to-teal-400/40 opacity-5">
 
     </div>
     <div class="relative">
         <div class="flex flex-col items-center justify-center min-h-screen px-4 py-12 sm:px-6 lg:px-8">
             <div class="max-w-md mb-8 max-h-96">
-                <img src="images/ic_logo_portrait_dark.svg" alt="indra logo" class="hidden w-full h-full dark:block">
-                <img src="images/ic_logo_portrait.svg" alt="indra logo" class="w-full h-full dark:hidden">
+                <img src="images/ic_logo_portrait_dark.svg" alt="indra logo" class="block w-full h-full">
             </div>
             <div>
-                <div class="mb-16 prose text-center dark:prose-invert">
-                    <h2 class="mb-32 font-medium text-green-600 dark:text-green-400">
+                <div class="mb-16 prose text-center prose-invert">
+                    <h2 class="mb-32 font-medium text-green-400">
                         Open Digital Innovation<br>
                         For a More Beautiful World
                     </h2>
